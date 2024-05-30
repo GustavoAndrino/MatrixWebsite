@@ -4,26 +4,31 @@
 <link rel="stylesheet" href="style.css">
 </head>
 <center>
-<h1 style="color: rgb(50, 204, 50); font-size: 100px;" id="headString">TheConstruct</h1>
+  
+
 
 </center>
 
 
 <body style="color: rgb(50, 204, 50);">
+
+  <canvas id="matrixCanvas"></canvas>  
   <div id="centeredImage">
     <p style="color: rgb(50, 204, 50);">We are <a href="https://www.youtube.com/watch?v=O5b0ZxUWNf0" style="color: rgb(50, 204, 50);"> The Construct</a></p>
-    <img src="black.png" id="blackImage">
-      <div class="text-overlay">
+    
+      <div class="text-overlay" id="myDiv">
+        <p style="color: rgb(50, 204, 50); font-size: 100px;" id="headString">TheConstruct</p>        
         <p style="font-size: 50px" id="ourRules">Our rules</p>
-        <p style="font-size: 30px"><a href="https://somepersonintheinternet.neocities.org/"  style="color: rgb(50, 204, 50);">Just the best coders</a></p>
-        <p style="font-size: 30px">Maximum optimization</p>
-        <p style="font-size: 30px">Only the hardest problems</p>
-        <button style="font-size: 30px" id="translateButton">TRANSALTE</button>
+        <p style="font-size: 30px" id="best"><a href="https://somepersonintheinternet.neocities.org/"  style="color: rgb(50, 204, 50);">Just the best coders</a></p>
+        <p style="font-size: 30px" id="max" >Maximum optimization</p>
+        <p style="font-size: 30px" id="hardest" >Only the hardest problems</p>
+        <button style="font-size: 20px" id="translateButton">TRANSLATE</button>
     
       </div> 
   </div>
     
-
+<script src="background.js"></script>
 <script src="construct.js"></script>
+
 </body>
 </html>
